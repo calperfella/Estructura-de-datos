@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int i,a,b,c,d;
+
+
+main()
+
+{
+	printf("escriba la cantidad de numeros que solicita de la ecuacion de fibonacci  \n");
+	scanf("%d",&a);
+	
+	c=1;
+
+	for(i=1;i<=a ;i++)
+	
+	{
+		d=b+c;
+		b=c;
+		c=d;
+		printf("%d \n",c);
+	}		
+}
